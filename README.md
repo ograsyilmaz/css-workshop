@@ -38,3 +38,8 @@
 ## 21 Şubat
 
 -Header kısmını responsive ile birlikte tamamlamak
+
+## 28 Şubat
+
+-Banner kısmı responsive ile birlikte tamamlamak
+-Resim : Assets/pana.png
