@@ -112,7 +112,7 @@ body {
   }
   .navigation-menu {
     position: absolute;
-    right: -300px;
+    right: -312px;
     top: 100%;
     height: 100vh;
     width: 300px;
@@ -205,4 +205,27 @@ body {
 
 .main-content-img {
   margin-left: 17px;
+}
+
+@media (max-width: 767px) {
+  .main-content {
+    flex-direction: column-reverse;
+  }
+  .main-content-info h1 {
+    text-align: center;
+    font-size: 34px;
+  }
+  .main-content-info p {
+    text-align: center;
+  }
+  .main-content-info-button {
+    text-align: center;
+  }
+
+  .main-content-img {
+  }
+  .main-content-img img {
+    width: 100%;
+    padding: 5px;
+  }
 }
